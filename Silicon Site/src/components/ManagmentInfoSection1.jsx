@@ -6,27 +6,27 @@ import ManagementInfoSectionImage from './ManagementInfoSectionImage'
 const ManagmentInfoSection1 = () => {
   return (
 
-  <section class="features-1">
-    <div class="container">
+  <section className="features-1">
+    <div className="container">
 
-        <div class="managmentInfo">
+        <div className="managmentInfo">
 
           <h2>Make your money <br/> transfer simple and clear</h2>
           
-            <div class="featuresList">
-                <div class="feature-item">
+            <div className="featuresList">
+                <div className="feature-item">
                   <img src={CheckCircle} alt="Checkad cirkle"/>
                   <span>Banking transactions are free for you</span>
                 </div>
                   
                 
-                <div class="feature-item">
+                <div className="feature-item">
                   <img src={CheckCircle} alt="Checkad cirkle"/>
                   <span>No monthly cash commission</span>
                 </div>
 
                     
-                <div class="feature-item">
+                <div className="feature-item">
                   <img src={CheckCircle} alt="Checkad cirkle"/>
                   <span>Manage payments and transactions online</span>
                 </div>

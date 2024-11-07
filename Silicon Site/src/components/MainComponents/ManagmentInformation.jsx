@@ -6,13 +6,8 @@ const ManagmentInformation = () => {
   return (
     <>
     <main id="features-2">
-
         <ManagmentInfoSection1 />
-
-
         <ManagementInfoSection2 />
-
-
     </main>
 
     

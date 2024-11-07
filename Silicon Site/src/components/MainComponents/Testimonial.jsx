@@ -5,7 +5,7 @@ import Testimonials from '../Testimonials'
 const Testimonial = () => {
   return (
     <main id="Testimonials">
-      <div class="container">        
+      <div className="container">        
         <TestimonialHeadline />
         <Testimonials />
       </div>

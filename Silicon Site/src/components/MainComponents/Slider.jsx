@@ -8,7 +8,7 @@ const Slider = () => {
   return (
     
     <section id="slider">
-      <div class="container">
+      <div className="container">
         <SliderHeadline />
         <DesktopSlider />
         <TabletSlider />

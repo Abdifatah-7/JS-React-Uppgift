@@ -6,7 +6,7 @@ const Subscribe = () => {
   return (
     
   <main id="subscribe">
-    <div class="container">
+    <div className="container">
         <SubscribeHeadline />
         <SubscribeForm />
     </div>
