@@ -15,11 +15,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section id="brands">
-      <div className="container">
         <SectionBrands />
-      </div>
-      </section>
     </>
   )
 }

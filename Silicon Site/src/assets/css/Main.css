@@ -18,6 +18,7 @@
   --colar-acc-bg:#ffff;
 
   --logo-image: url('../images/silicon-logo.svg');
+  --background-linear:linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
   
 
 }
@@ -43,6 +44,9 @@
   --logo-image: url('../images/logo-darkMode.svg');
   --logo-appleStore: url('../images/appleStoreDarkModeLogo.svg');
   --logo-googleStore: url('../images/googleStoreDarkModeLogo.svg');
+  --background-linear:#0B0F19;
+
+
   
 }
 
@@ -61,7 +65,7 @@ body{
   padding: 0;
 }
 
-/* #navigation, */
+
 #hero,
 #features,
 #features-2,
@@ -109,7 +113,7 @@ strong{
   /* navigation */
 
   #navigation{
-     background-color: var(--colar-navi-bg);
+     background-color: var(--colar-bg);
 
 .check{
   color: var(--colar-dark);
@@ -336,7 +340,7 @@ header .container{
 #hero{
 
   background: rgb(99,102,241);
-  background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+  background:var(--background-linear);
   background-color: var(--colar-bg);
   .container{
     display: grid;
@@ -1218,6 +1222,7 @@ grid-template-columns: 1fr;
               display: flex;
               flex-direction: column;
               gap: .7rem;
+              padding-top: 3rem ;
              
             }
 
