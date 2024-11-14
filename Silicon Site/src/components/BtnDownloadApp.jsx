@@ -3,7 +3,7 @@ import AppleStore from '../assets/images/appleStore.svg'
 import GooglePlay from '../assets/images/googlePlay.svg'
 
 
-const BtnDownloadApp = () => {
+const BtnDownloadApp = () => { 
   return (
       <div className="buttons">
         <a className="btn-download-app" href="#"><img className='appleStore' src={AppleStore} alt="Apple Icon"/></a>

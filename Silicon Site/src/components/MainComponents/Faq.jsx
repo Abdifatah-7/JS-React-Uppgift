@@ -8,8 +8,8 @@ const Faq = () => {
     <main aria-label=" frequently asked question " id="FAQ">
       <div className="container">
         <FaqInfo />
-        <FaqIcons />
         <Accordions />
+        <FaqIcons />
 
       </div>
     </main>
